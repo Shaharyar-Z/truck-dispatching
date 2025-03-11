@@ -27,10 +27,10 @@ export default function Navbar() {
         <Link href="/" className=" cursor-pointer text-2xl font-extrabold text-blue-600">HORIZON SOLUTION LLC</Link>
 
         <div className="space-x-8 hidden md:flex">
-          <ScrollLink to="services" smooth={true} duration={600} className="cursor-pointer text-slate-700 hover:text-blue-600 transition">
+          <ScrollLink to="services" smooth={true} duration={600} className="cursor-pointer text-slate-700 hover:text-blue-600 transition text-xl">
             Services
           </ScrollLink>
-          <ScrollLink to="contact" smooth={true} duration={600} className="cursor-pointer text-slate-700 hover:text-blue-600 transition">
+          <ScrollLink to="contact" smooth={true} duration={600} className="cursor-pointer text-slate-700 hover:text-blue-600 transition text-xl">
             Contact
           </ScrollLink>
         </div>

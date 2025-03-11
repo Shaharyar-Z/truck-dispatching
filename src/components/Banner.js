@@ -2,9 +2,9 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 const images = [
-  "https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg",
-  "https://images.pexels.com/photos/2802785/pexels-photo-2802785.jpeg",
-  "https://images.pexels.com/photos/977213/pexels-photo-977213.jpeg",
+  "/images/banner1.jpg",
+  "/images/banner2.jpg",
+  "/images/banner3.jpg",
 ];
 
 export default function Banner() {
@@ -34,7 +34,7 @@ export default function Banner() {
         <img
           src={images[currentImageIndex]}
           alt="Banner Image"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover brightness-80"
         />
       </motion.div>
 
