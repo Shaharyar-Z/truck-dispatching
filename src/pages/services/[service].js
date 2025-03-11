@@ -60,7 +60,7 @@ Take all the advantages of our step deck or flatbed dispatch services.`,
   return (
     <>
       {serviceType ? (
-        <div className="p-5 min-h-screen flex flex-col items-center justify-center">
+        <div className="p-5 min-h-screen flex flex-col items-center justify-center bg-white">
           <div className="flex flex-col md:flex-row items-center md:items-start max-w-8xl w-full pt-10">
             <div className="md:w-1/2 w-full flex justify-center p-4">
               <img
