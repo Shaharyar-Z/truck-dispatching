@@ -50,7 +50,7 @@ export default function Banner() {
           <p className="mt-4 text-lg">
             We optimize logistics for maximum efficiency and customer satisfaction.
           </p>
-          <a href="mailto:contact@truckdispatch.com">
+          <a href="mailto:horizonsltn@gmail.com">
             <button className="mt-6 px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg shadow-lg transition-all duration-300">
               Contact Us
             </button>

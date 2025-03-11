@@ -66,12 +66,6 @@ export default function Services() {
                     Learn More
                   </button>
                 </Link>
-
-                {/* <a href="mailto:contact@truckdispatch.com">
-                  <button className="px-6 cursor-pointer py-2 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition">
-                    Contact Us
-                  </button>
-                </a> */}
               </div>
             </div>
           </motion.div>
